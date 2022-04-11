@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.logo{
+    width: 125px;
+    padding: 2px 15px ;
+}
+
+.iconos-redes{
+    width: 25px;
+    margin: 10px 5px;
+}
+.fondo{
+    text-align: center;
+    padding: 100px 12px;
+    max-width: 1300px;
+    margin: auto;
+    
+    background-color: #1e292e  ;
+    background-color: #107696  ;
+    color: white;
+}
+.fondo h1{
+    color: white;
+    text-shadow: rgb(22, 19, 19) 0.1em  0.1em 0.2em;
+    margin-top: 2%;
+}
+
+.banner-video{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0, 0, 0, 0.692)), url(../img/video.jpg);
+    padding: 235PX 0px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+}
+.banner-video img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.banner-video h1{
+    
+    color: white;
+    text-shadow: rgb(22, 19, 19) 0.1em  0.1em 0.2em;
+    margin-top: 2%;
+}
+
+#bg-contactos{
+    position: relative;
+}
+#scontactos{
+    min-height: 500px;
+    position: relative;
+}
+#formulario{
+    position:center;
+    transform: -50%, -50%;
+    background: #e5e9ec;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #1e292e;
+    padding: 50px 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.404);
+
+}
+
+footer #logofo{
+    width: 200px;
+    margin-bottom: 20px;
+
+}
